@@ -1,0 +1,3 @@
+F:/Project/STM32_WorkSpace/realQEA2/cmake-build-debug/CMakeFiles/QEA2.elf.dir
+F:/Project/STM32_WorkSpace/realQEA2/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Project/STM32_WorkSpace/realQEA2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
