@@ -152,6 +152,30 @@ Core/Src/ADS1292.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/ADS1292.c.s
 .PHONY : Core/Src/ADS1292.c.s
 
+Core/Src/FIRFilter.obj: Core/Src/FIRFilter.c.obj
+.PHONY : Core/Src/FIRFilter.obj
+
+# target to build an object file
+Core/Src/FIRFilter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/FIRFilter.c.obj
+.PHONY : Core/Src/FIRFilter.c.obj
+
+Core/Src/FIRFilter.i: Core/Src/FIRFilter.c.i
+.PHONY : Core/Src/FIRFilter.i
+
+# target to preprocess a source file
+Core/Src/FIRFilter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/FIRFilter.c.i
+.PHONY : Core/Src/FIRFilter.c.i
+
+Core/Src/FIRFilter.s: Core/Src/FIRFilter.c.s
+.PHONY : Core/Src/FIRFilter.s
+
+# target to generate assembly for a file
+Core/Src/FIRFilter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/FIRFilter.c.s
+.PHONY : Core/Src/FIRFilter.c.s
+
 Core/Src/IIRFilter.obj: Core/Src/IIRFilter.c.obj
 .PHONY : Core/Src/IIRFilter.obj
 
@@ -247,6 +271,30 @@ Core/Src/main.s: Core/Src/main.c.s
 Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
+
+Core/Src/queue.obj: Core/Src/queue.c.obj
+.PHONY : Core/Src/queue.obj
+
+# target to build an object file
+Core/Src/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/queue.c.obj
+.PHONY : Core/Src/queue.c.obj
+
+Core/Src/queue.i: Core/Src/queue.c.i
+.PHONY : Core/Src/queue.i
+
+# target to preprocess a source file
+Core/Src/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/queue.c.i
+.PHONY : Core/Src/queue.c.i
+
+Core/Src/queue.s: Core/Src/queue.c.s
+.PHONY : Core/Src/queue.s
+
+# target to generate assembly for a file
+Core/Src/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/queue.c.s
+.PHONY : Core/Src/queue.c.s
 
 Core/Src/spi.obj: Core/Src/spi.c.obj
 .PHONY : Core/Src/spi.obj
@@ -844,6 +892,9 @@ help:
 	@echo ... Core/Src/ADS1292.obj
 	@echo ... Core/Src/ADS1292.i
 	@echo ... Core/Src/ADS1292.s
+	@echo ... Core/Src/FIRFilter.obj
+	@echo ... Core/Src/FIRFilter.i
+	@echo ... Core/Src/FIRFilter.s
 	@echo ... Core/Src/IIRFilter.obj
 	@echo ... Core/Src/IIRFilter.i
 	@echo ... Core/Src/IIRFilter.s
@@ -856,6 +907,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/queue.obj
+	@echo ... Core/Src/queue.i
+	@echo ... Core/Src/queue.s
 	@echo ... Core/Src/spi.obj
 	@echo ... Core/Src/spi.i
 	@echo ... Core/Src/spi.s

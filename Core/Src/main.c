@@ -28,6 +28,7 @@
 #include <stdio.h>
 #include "ADS1292.h"
 #include "IIRFilter.h"
+#include "FIRFilter.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -69,6 +70,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     {
         ADS1292ReadData();
         IIRFilter(heartRawData);
+        FIRFilter(IIR_Result);
     }
     //HAL_GPIO_TogglePin(LED0_GPIO_Port,LED0_Pin);
 }
@@ -113,6 +115,7 @@ int main(void)
   MX_SPI3_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+    FIRInit();
     ADS1292Init();
   /* USER CODE END 2 */
 

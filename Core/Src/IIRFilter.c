@@ -17,7 +17,7 @@ void IIRFilter(uint16_t rawData){
     cur_input = rawData;
     cur_output = cur_input - last_input + a * last_output;
     IIR_Result = (int16_t)cur_output;
-    printf("%d\n",IIR_Result);
+//    printf("%d\n",IIR_Result);
     last_output = cur_output;
     last_input = cur_input;
 }

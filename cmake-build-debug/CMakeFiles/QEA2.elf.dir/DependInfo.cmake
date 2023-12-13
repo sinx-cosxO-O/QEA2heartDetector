@@ -31,10 +31,12 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/ADS1292.c" "CMakeFiles/QEA2.elf.dir/Core/Src/ADS1292.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/ADS1292.c.obj.d"
+  "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/FIRFilter.c" "CMakeFiles/QEA2.elf.dir/Core/Src/FIRFilter.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/FIRFilter.c.obj.d"
   "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/IIRFilter.c" "CMakeFiles/QEA2.elf.dir/Core/Src/IIRFilter.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/IIRFilter.c.obj.d"
   "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/dma.c" "CMakeFiles/QEA2.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/dma.c.obj.d"
   "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/gpio.c" "CMakeFiles/QEA2.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/gpio.c.obj.d"
   "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/main.c" "CMakeFiles/QEA2.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/main.c.obj.d"
+  "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/queue.c" "CMakeFiles/QEA2.elf.dir/Core/Src/queue.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/queue.c.obj.d"
   "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/spi.c" "CMakeFiles/QEA2.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/spi.c.obj.d"
   "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/QEA2.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "F:/Project/STM32_WorkSpace/realQEA2/Core/Src/stm32f4xx_it.c" "CMakeFiles/QEA2.elf.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/QEA2.elf.dir/Core/Src/stm32f4xx_it.c.obj.d"
