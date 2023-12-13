@@ -99,6 +99,9 @@
 		<Unit filename="F:/Project/STM32_WorkSpace/realQEA2/Core/Inc/ADS1292.h">
 			<Option target="QEA2.elf"/>
 		</Unit>
+		<Unit filename="F:/Project/STM32_WorkSpace/realQEA2/Core/Inc/IIRFilter.h">
+			<Option target="QEA2.elf"/>
+		</Unit>
 		<Unit filename="F:/Project/STM32_WorkSpace/realQEA2/Core/Inc/dma.h">
 			<Option target="QEA2.elf"/>
 		</Unit>
@@ -121,6 +124,9 @@
 			<Option target="QEA2.elf"/>
 		</Unit>
 		<Unit filename="F:/Project/STM32_WorkSpace/realQEA2/Core/Src/ADS1292.c">
+			<Option target="QEA2.elf"/>
+		</Unit>
+		<Unit filename="F:/Project/STM32_WorkSpace/realQEA2/Core/Src/IIRFilter.c">
 			<Option target="QEA2.elf"/>
 		</Unit>
 		<Unit filename="F:/Project/STM32_WorkSpace/realQEA2/Core/Src/dma.c">

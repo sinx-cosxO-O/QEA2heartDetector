@@ -27,6 +27,7 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 #include "ADS1292.h"
+#include "IIRFilter.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -67,6 +68,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     if(GPIO_Pin == GPIO_PIN_7)
     {
         ADS1292ReadData();
+        IIRFilter(heartRawData);
     }
     //HAL_GPIO_TogglePin(LED0_GPIO_Port,LED0_Pin);
 }

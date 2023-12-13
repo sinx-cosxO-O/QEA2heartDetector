@@ -152,6 +152,30 @@ Core/Src/ADS1292.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/ADS1292.c.s
 .PHONY : Core/Src/ADS1292.c.s
 
+Core/Src/IIRFilter.obj: Core/Src/IIRFilter.c.obj
+.PHONY : Core/Src/IIRFilter.obj
+
+# target to build an object file
+Core/Src/IIRFilter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/IIRFilter.c.obj
+.PHONY : Core/Src/IIRFilter.c.obj
+
+Core/Src/IIRFilter.i: Core/Src/IIRFilter.c.i
+.PHONY : Core/Src/IIRFilter.i
+
+# target to preprocess a source file
+Core/Src/IIRFilter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/IIRFilter.c.i
+.PHONY : Core/Src/IIRFilter.c.i
+
+Core/Src/IIRFilter.s: Core/Src/IIRFilter.c.s
+.PHONY : Core/Src/IIRFilter.s
+
+# target to generate assembly for a file
+Core/Src/IIRFilter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QEA2.elf.dir\build.make CMakeFiles/QEA2.elf.dir/Core/Src/IIRFilter.c.s
+.PHONY : Core/Src/IIRFilter.c.s
+
 Core/Src/dma.obj: Core/Src/dma.c.obj
 .PHONY : Core/Src/dma.obj
 
@@ -820,6 +844,9 @@ help:
 	@echo ... Core/Src/ADS1292.obj
 	@echo ... Core/Src/ADS1292.i
 	@echo ... Core/Src/ADS1292.s
+	@echo ... Core/Src/IIRFilter.obj
+	@echo ... Core/Src/IIRFilter.i
+	@echo ... Core/Src/IIRFilter.s
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s

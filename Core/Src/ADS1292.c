@@ -14,6 +14,7 @@ uint8_t ads1292r_data_buff[9] = {0};
 uint8_t device_id ;
 signed long  ADS1292R_ECG_BUFFER[2];
 signed short ECGRawData[2];
+uint16_t heartRawData;
 /*
 	ADS1292初始化
 */
@@ -161,7 +162,8 @@ void ADS1292ReadData(){
 
     ECGRawData[0]=(short)ADS1292R_ECG_BUFFER[0];
     ECGRawData[1]=(short)ADS1292R_ECG_BUFFER[1];
-    printf("%d\n\r",ECGRawData[1]);
+    heartRawData = ECGRawData[1];
+//    printf("%d\n\r",heartRawData);
 //    static uint8_t temp1292r[9]={0}; //并没有什么卵用
 //    HAL_SPI_TransmitReceive(&hspi3,temp1292r,ads1292r_data_buff,9,10);
 //    HAL_SPI_Receive_DMA(&hspi3, ads1292r_data_buff, 9); // 使用DMA接收9个字节的数据

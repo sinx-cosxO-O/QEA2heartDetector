@@ -42,6 +42,7 @@
 /*================================*/
 
 #define HEART_BUFFER_SIZE 9
+extern uint16_t heartRawData;
 void ADS1292Init(void);
 int8_t ADS1292CmdTransmit(uint8_t);
 uint8_t ADS1292RegisterReadSingle(uint8_t);
